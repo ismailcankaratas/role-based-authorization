@@ -67,3 +67,50 @@ if (hasPermission(user, "todos", "view")) {
   console.log("Can view all todos");
 }
 ```
+
+To install and set up the repository, you typically follow these steps:
+
+1. **Clone the Repository**:
+   First, clone the repository to your local machine using Git.
+   ```bash
+   git clone https://github.com/ismailcankaratas/role-based-authorization.git
+   cd role-based-authorization
+   ```
+
+2. **Install Dependencies**:
+   The `package.json` file indicates that the project uses Node.js and contains all the required dependencies. Use npm or yarn to install them:
+   ```bash
+   npm install
+   ```
+   or, if you prefer Yarn:
+   ```bash
+   yarn install
+   ```
+
+3. **Check TypeScript Configuration (Optional)**:
+   If the project uses TypeScript (`types.ts` indicates this), ensure TypeScript is installed globally or locally within the project:
+   ```bash
+   npm install -g typescript
+   ```
+
+4. **Start the Application**:
+   Depending on the setup, you may find a script in `package.json` (like `start`, `dev`, or `build`) to run the application. Use the relevant command:
+   ```bash
+   npm start
+   ```
+   or
+   ```bash
+   npm run dev
+   ```
+
+5. **Environment Variables**:
+   If the project requires environment variables, check for `.env` or documentation in the `README.md` file for instructions. You might need to create and configure a `.env` file.
+
+6. **Verify Setup**:
+   Test the application to ensure it works as expected after installation.
+
+---
+
+## Contact
+
+For any questions or feedback, please contact [İsmail Can Karataş](https://www.linkedin.com/in/ismailcankaratas/). 
